@@ -61,7 +61,8 @@
     display: flex;
   }
 
-  .icon, .text {
+  .icon,
+  .text {
     flex: 1;
     text-align: center;
   }
@@ -74,13 +75,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
   }
   .text {
     h2 {
       color: #fff;
       font-size: 2.4rem;
       font-weight: 800;
+      padding-bottom: 0.7rem;
     }
     p {
       color: #fff;
@@ -88,6 +89,18 @@
       font-size: 1.6rem;
       font-weight: 500;
       line-height: 24px;
+      padding-bottom: 1.2rem;
     }
+  }
+  .botao {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    border: 1px solid #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
   }
 }
